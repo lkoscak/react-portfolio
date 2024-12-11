@@ -48,17 +48,19 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className={styles.sectionSubText}>Introduction</p>
-				<h2 className={styles.sectionHeadText}>Overview.</h2>
+				<p className={styles.sectionSubText}>Who am I</p>
+				<h2 className={styles.sectionHeadText}>Intro</h2>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I'm a software developer, focused on anything web related, with
-				expertise in JavaScript and experience in frameworks like React and
-				Node.js. I'm a quick learner and unafraid of trying new technologies and
+				I'm a Frontend developer interested in anything web related, with
+				expertise in JavaScript and ReactJS development and experience working in
+				Node.js. 
+				<br/>
+				I'm a quick learner and unafraid of trying new technologies and
 				implementing new practices in my work.
 			</motion.p>
 
